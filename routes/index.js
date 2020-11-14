@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'GraphQL Teste Deploy' });
+  res.render('index', { title: 'GraphQL Teste Deploy, com mais acrescimos' });
 });
 
 module.exports = router;
